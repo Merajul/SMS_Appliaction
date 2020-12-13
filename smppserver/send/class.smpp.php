@@ -13,14 +13,14 @@ if (basename($_SERVER['SCRIPT_NAME']) == 'class.smpp.php') {
 
   
 $src  = "16678"; // or text 
-$dst  = "01939502207";
+$dst  = "015000000";
 $message = "Test Message";
 
 $s = new smpp();
 $s->debug=1;
 
 // $host,$port,$system_id,$password
-$s->open("172.16.249.43", 6008, "gyanvandar", "gy@nv1nr");
+$s->open("172.0.0.1", 6008, "gyanvandar", "gy@nv1nr");
 
 // $source_addr,$destintation_addr,$short_message,$utf=0,$flash=0
 $s->send_long($src, $dst, $message);

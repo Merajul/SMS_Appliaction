@@ -1,27 +1,4 @@
 <?php
-/**
- *ORIGINAL AUTHOR
- * @package net
- * Class for receiving or sending sms through SMPP protocol.
- * @version 0.2
- * @author paladin
- * @since 04/25/2006
- * @see http://www.smpp.org/doc/public/index.html - SMPP 3.4 protocol specification
- */
-
-/**
- * FORK BY xhit
- * @package net
- * Class for receiving or sending sms through SMPP protocol.
- * @version fork 0.1
- * @author xhit
- * @since 02/01/2019
- */
-
-/**
- *This class is also a merge from smpp lib of onlinecity 
- * @see https://github.com/onlinecity/php-smpp
-*/
 
 class SMPP{
 
